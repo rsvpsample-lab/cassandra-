@@ -47,7 +47,7 @@ const InvitationRevealSection = () => {
           >
             <Button
               onClick={handleOpenInvitation}
-              className="bg-gradient-to-r from-[#FFD1DC] to-[#FFC1D9] hover:from-[#FFC1D9] hover:to-[#FFD1DC] text-[#0c111d] text-xl md:text-2xl px-12 py-8 rounded-lg shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(255,193,217,0.5)] font-bold"
+              className="bg-gradient-to-r from-[#DAA520] to-[#FFD700] hover:from-[#FFD700] hover:to-[#DAA520] text-[#0c111d] text-xl md:text-2xl px-12 py-8 rounded-lg shadow-2xl transition-all duration-300 hover:scale-105 hover:shadow-[0_0_30px_rgba(218,165,32,0.5)] font-bold"
               style={{ fontFamily: 'Boska, serif' }}
               data-testid="button-open-invitation"
             >
