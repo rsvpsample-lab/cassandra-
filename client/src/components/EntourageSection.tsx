@@ -168,19 +168,19 @@ const EntourageSection = () => {
               <div>
                 <h4 className="text-lg md:text-xl font-semibold text-foreground mb-4">Usher</h4>
                 <div className="space-y-2">
+                  <p className="text-foreground/90 text-sm md:text-base">Mr. Leon Vince S. Grasparil</p>
                   <p className="text-foreground/90 text-sm md:text-base">Mr. Michael John B. Esteban</p>
                   <p className="text-foreground/90 text-sm md:text-base">Mr. Khing Jomar M. Esguerra</p>
                   <p className="text-foreground/90 text-sm md:text-base">Mr. Julou Augustine S. Medrano</p>
-                  <p className="text-foreground/90 text-sm md:text-base">Mr. Leon Vince S. Grasparil</p>
                 </div>
               </div>
               <div>
                 <h4 className="text-lg md:text-xl font-semibold text-foreground mb-4">Bridesmaid</h4>
                 <div className="space-y-2">
+                  <p className="text-foreground/90 text-sm md:text-base">Ms. Chezca Nicolette S. Mendoza</p>
                   <p className="text-foreground/90 text-sm md:text-base">Ms. Michelle Lenin M. Roces</p>
                   <p className="text-foreground/90 text-sm md:text-base">Ms. Dominic Nikki R. Ramos</p>
                   <p className="text-foreground/90 text-sm md:text-base">Ms. Mara Loren M. Roces</p>
-                  <p className="text-foreground/90 text-sm md:text-base">Ms. Chezca Nicolette S. Mendoza</p>
                   <p className="text-foreground/90 text-sm md:text-base">Ms. Asliah M. Macabuat</p>
                   <p className="text-foreground/90 text-sm md:text-base">Ms. Camille N. Recio</p>
                 </div>

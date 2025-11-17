@@ -11,9 +11,12 @@ const HeroSection = () => {
       id="hero"
       className="hero-section relative min-h-screen flex flex-col items-center justify-center overflow-hidden"
     >
-      <img
-        src="https://res.cloudinary.com/dsan7eodz/image/upload/v1763385234/FIRST_SECTION_pk9aen.jpg"
-        alt="Jarold and Sandy Wedding"
+      <video
+        src="https://res.cloudinary.com/dn8mkpxte/video/upload/v1763392576/VID_FRONT_ohukqi.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
         className="absolute inset-0 w-full h-full object-cover"
         style={{ objectFit: 'cover' }}
       />

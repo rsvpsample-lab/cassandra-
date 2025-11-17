@@ -118,6 +118,10 @@ const Index = () => {
             alt="William & Erhica Wedding Cover Image 2"
           />
           <DressCodeSection />
+          <CoverSection
+            imageUrl="https://res.cloudinary.com/dsan7eodz/image/upload/v1763385234/FIRST_SECTION_pk9aen.jpg"
+            alt="Jarold and Sandy Wedding"
+          />
           <HashtagGiftsSection />
           <SaveTheDateSection />
           <PolaroidSection />
