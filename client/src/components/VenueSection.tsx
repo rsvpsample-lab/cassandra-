@@ -5,6 +5,8 @@ import { motion } from 'framer-motion';
 import { useAnimationContext } from '@/contexts/AnimationContext';
 import { LinkPreview } from '@/components/ui/link-preview';
 
+import chur from "@assets/chur.jpg";
+
 const VenueSection = () => {
   const { animationsEnabled } = useAnimationContext();
   const venues = [
@@ -82,7 +84,7 @@ const VenueSection = () => {
                 {/* Venue Image */}
                 <div className="mb-8">
                   <img
-                    src={venue.image}
+                    src={chur}
                     alt={venue.name}
                     className="w-full h-64 object-cover rounded-lg shadow-lg"
                     loading="lazy"
