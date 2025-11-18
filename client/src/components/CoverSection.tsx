@@ -30,7 +30,7 @@ const CoverSection = ({ imageUrl, videoUrl, alt, className = "" }: CoverSectionP
           </video>
         ) : imageUrl ? (
           <img 
-            src="https://res.cloudinary.com/df2zirjvd/image/upload/v1763435869/582054060_4219191611742664_1859862735658718281_n_imwkto.jpg"
+            src={imageUrl}
             alt={alt}
             style={{
               display: 'block',
