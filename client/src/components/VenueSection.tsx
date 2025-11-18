@@ -6,6 +6,7 @@ import { useAnimationContext } from '@/contexts/AnimationContext';
 import { LinkPreview } from '@/components/ui/link-preview';
 
 import chur from "@assets/chur.jpg";
+import reception from "@assets/72468019_113786333368055_8168402127631155200_n_1763435574999.jpg";
 
 const VenueSection = () => {
   const { animationsEnabled } = useAnimationContext();
@@ -14,7 +15,7 @@ const VenueSection = () => {
       title: 'Ceremony',
       name: 'The Diocesan Shrine and Parish of Our Lady of the Abandoned',
       address: 'J.P. Rizal, Corner V. Gomez St, Marikina, 1801 Metro Manila',
-      image: 'https://res.cloudinary.com/dsan7eodz/image/upload/v1763385281/2fcfc710-ab92-4b57-b465-d5f9ff028edb.png',
+      image: chur,
       mapUrl: 'https://maps.app.goo.gl/iYgWHyVgkahY6pwW7',
       mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.450014227641!2d121.09372147487339!3d14.630377785859537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b833fbc2818f%3A0x9d133b0831c4c5f5!2sDiocesan%20Shrine%20and%20Parish%20of%20Our%20Lady%20of%20the%20Abandoned!5e0!3m2!1sen!2sph!4v1763386717593!5m2!1sen!2sph',
       description: 'Join us at The Diocesan Shrine and Parish of Our Lady of the Abandoned for our sacred wedding ceremony. This beautiful church will witness our vows of eternal love as we begin our journey together.',
@@ -26,7 +27,7 @@ const VenueSection = () => {
       title: 'Reception',
       name: 'Teodore Events Place',
       address: '61 Katipunan St., Sto. Nino Marikina City',
-      image: 'https://res.cloudinary.com/dsan7eodz/image/upload/v1763385499/recep_hirzj0.jpg',
+      image: reception,
       mapUrl: 'https://maps.app.goo.gl/uRtk5V9kb6FKWFN19',
       mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.2856458254078!2d121.10696867487347!3d14.639719985851308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b953365d1915%3A0xcc770456bb69751c!2sTeodore%20Events%20Place!5e0!3m2!1sen!2sph!4v1763386770029!5m2!1sen!2sph',
       description: 'Celebrate with us at Teodore Events Place, an elegant venue where we will host our celebration of love and create unforgettable memories together.',
@@ -84,7 +85,7 @@ const VenueSection = () => {
                 {/* Venue Image */}
                 <div className="mb-8">
                   <img
-                    src={chur}
+                    src={venue.image}
                     alt={venue.name}
                     className="w-full h-64 object-cover rounded-lg shadow-lg"
                     loading="lazy"
