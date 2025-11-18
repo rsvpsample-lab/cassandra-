@@ -191,36 +191,30 @@ const EntourageSection = () => {
           {/* Special Roles */}
           <div className="space-y-8">
             {/* To light our path */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8">
-              <div className="text-center md:text-left">
-                <h4 className="text-base md:text-lg font-semibold text-foreground mb-3">To light our path</h4>
+            <div className="text-center">
+              <h4 className="text-base md:text-lg font-semibold text-foreground mb-3">To light our path</h4>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4 max-w-3xl mx-auto">
+                <p className="text-foreground/90 text-sm md:text-base">Mr. Don Ricardo Jose M. Roces</p>
+                <p className="text-foreground/90 text-sm md:text-base">Ms. Christine Jennifer M. Asugao, RMT</p>
               </div>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4">
-              <p className="text-foreground/90 text-sm md:text-base text-center md:text-left">Mr. Don Ricardo Jose M. Roces</p>
-              <p className="text-foreground/90 text-sm md:text-base text-center md:text-left">Ms. Christine Jennifer M. Asugao, RMT</p>
             </div>
 
             {/* To bind us together */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 mt-6">
-              <div className="text-center md:text-left">
-                <h4 className="text-base md:text-lg font-semibold text-foreground mb-3">To bind us together</h4>
+            <div className="text-center mt-6">
+              <h4 className="text-base md:text-lg font-semibold text-foreground mb-3">To bind us together</h4>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4 max-w-3xl mx-auto">
+                <p className="text-foreground/90 text-sm md:text-base">Mr. Alejandro Jose F. Caro</p>
+                <p className="text-foreground/90 text-sm md:text-base">Ms. Alexandra Nicole S. Mendoza</p>
               </div>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4">
-              <p className="text-foreground/90 text-sm md:text-base text-center md:text-left">Mr. Alejandro Jose F. Caro</p>
-              <p className="text-foreground/90 text-sm md:text-base text-center md:text-left">Ms. Alexandra Nicole S. Mendoza</p>
             </div>
 
             {/* To clothe us as one */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 mt-6">
-              <div className="text-center md:text-left">
-                <h4 className="text-base md:text-lg font-semibold text-foreground mb-3">To clothe us as one</h4>
+            <div className="text-center mt-6">
+              <h4 className="text-base md:text-lg font-semibold text-foreground mb-3">To clothe us as one</h4>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4 max-w-3xl mx-auto">
+                <p className="text-foreground/90 text-sm md:text-base">Mr. Don Joaquin Rafael M. Roces</p>
+                <p className="text-foreground/90 text-sm md:text-base">Ms. Anne Kathleen M. Santos</p>
               </div>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4">
-              <p className="text-foreground/90 text-sm md:text-base text-center md:text-left">Mr. Don Joaquin Rafael M. Roces</p>
-              <p className="text-foreground/90 text-sm md:text-base text-center md:text-left">Ms. Anne Kathleen M. Santos</p>
             </div>
 
             {/* Bearers */}
