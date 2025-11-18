@@ -6,7 +6,7 @@ import MusicConsentPopup from '@/components/MusicConsentPopup';
 // Cover images from Cloudinary
 const cover1Image = 'https://res.cloudinary.com/dsan7eodz/image/upload/v1763385237/ENGAGEMENT_RING_gqn1kq.jpg';
 const cover2Image = 'https://res.cloudinary.com/dsan7eodz/image/upload/v1763385237/THE_DAY_WE_LL_SAY_I_DO_msrdsm.jpg';
-const cover3Image = 'https://res.cloudinary.com/dsan7eodz/image/upload/v1763385235/HOW_WE_MET_xmnpnp.jpg';
+const cover3Image = 'https://res.cloudinary.com/df2zirjvd/image/upload/v1763435869/582054060_4219191611742664_1859862735658718281_n_imwkto.jpg';
 import CountdownSection from '@/components/CountdownSection';
 import StorySection from '@/components/StorySection';
 import ScrollTriggeredTimeline from '@/components/ScrollTriggeredTimeline';
