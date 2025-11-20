@@ -56,29 +56,30 @@ const SaveTheDateSection = () => {
         </div>
       </motion.section>
 
-      {/* Coming Soon Section */}
+      {/* Video Section */}
       <motion.section 
         className="relative w-full overflow-hidden bg-gradient-to-b from-background to-muted/20"
         initial={animationsEnabled ? { opacity: 0 } : { opacity: 1 }}
         animate={{ opacity: 1 }}
         transition={animationsEnabled ? { duration: 0.8, ease: "easeOut", delay: 0.8 } : { duration: 0 }}
       >
-        <div className="relative w-full py-32">
-          <div className="max-w-4xl mx-auto px-4 text-center">
+        <div className="relative w-full py-12 md:py-20">
+          <div className="max-w-5xl mx-auto px-4">
             <motion.div
-              initial={animationsEnabled ? { scale: 0.8, opacity: 0 } : { scale: 1, opacity: 1 }}
+              initial={animationsEnabled ? { scale: 0.95, opacity: 0 } : { scale: 1, opacity: 1 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={animationsEnabled ? { duration: 0.6, delay: 1.0 } : { duration: 0 }}
             >
-              <div className="inline-flex items-center justify-center w-20 h-20 bg-primary/10 rounded-full mb-6">
-                <Heart className="w-10 h-10 text-primary animate-pulse" />
+              <div className="relative w-full rounded-md overflow-hidden shadow-lg" style={{ paddingBottom: '56.25%' }}>
+                <iframe
+                  className="absolute top-0 left-0 w-full h-full"
+                  src="https://www.youtube.com/embed/raC6d_2BtBE"
+                  title="Save The Date Video"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  data-testid="video-save-the-date"
+                ></iframe>
               </div>
-              <h3 className="font-display text-4xl md:text-5xl text-foreground mb-4">
-                Coming Soon
-              </h3>
-              <p className="text-lg text-foreground/70 font-script italic">
-                Our special video will be available here shortly
-              </p>
             </motion.div>
           </div>
         </div>
