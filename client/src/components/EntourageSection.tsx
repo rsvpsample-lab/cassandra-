@@ -121,7 +121,7 @@ const EntourageSection = () => {
               </div>
               {/* Couple 4 */}
               <div className="grid grid-cols-2 gap-4 md:gap-8">
-                <p className="text-foreground/90 text-sm md:text-base">Mr. Ricky R. Roces</p>
+                <p className="text-foreground/90 text-sm md:text-base">Mr. Richard R. Roces</p>
                 <p className="text-foreground/90 text-sm md:text-base">Mrs. Cristy O. Schroo</p>
               </div>
               {/* Couple 5 */}
@@ -169,8 +169,8 @@ const EntourageSection = () => {
                 <h4 className="text-lg md:text-xl font-semibold text-foreground mb-4">Usher</h4>
                 <div className="space-y-2">
                   <p className="text-foreground/90 text-sm md:text-base">Mr. Leon Vince S. Grasparil</p>
-                  <p className="text-foreground/90 text-sm md:text-base">Mr. Michael John B. Esteban</p>
                   <p className="text-foreground/90 text-sm md:text-base">Mr. Khing Jomar M. Esguerra</p>
+                  <p className="text-foreground/90 text-sm md:text-base">Mr. Michael John B. Esteban</p>
                   <p className="text-foreground/90 text-sm md:text-base">Mr. Julou Augustine S. Medrano</p>
                 </div>
               </div>
@@ -178,8 +178,8 @@ const EntourageSection = () => {
                 <h4 className="text-lg md:text-xl font-semibold text-foreground mb-4">Bridesmaid</h4>
                 <div className="space-y-2">
                   <p className="text-foreground/90 text-sm md:text-base">Ms. Chezca Nicolette S. Mendoza</p>
-                  <p className="text-foreground/90 text-sm md:text-base">Ms. Michelle Lenin M. Roces</p>
-                  <p className="text-foreground/90 text-sm md:text-base">Ms. Dominic Nikki R. Ramos</p>
+                  <p className="text-foreground/90 text-sm md:text-base">Ms. Ma. Dominique Jasmin R. Ramos</p>
+                  <p className="text-foreground/90 text-sm md:text-base">Ms. Michele Lenin M. Roces</p>
                   <p className="text-foreground/90 text-sm md:text-base">Ms. Mara Loren M. Roces</p>
                   <p className="text-foreground/90 text-sm md:text-base">Ms. Asliah M. Macabuat</p>
                   <p className="text-foreground/90 text-sm md:text-base">Ms. Camille N. Recio</p>
@@ -219,7 +219,7 @@ const EntourageSection = () => {
 
             {/* Bearers */}
             <div className="mt-8">
-              <h4 className="text-base md:text-lg font-semibold text-foreground mb-4 text-center">To carry our symbol of love and treasure</h4>
+              <h4 className="text-base md:text-lg font-semibold text-foreground mb-4 text-center">To carry our symbol of love, treasure and faith</h4>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6 max-w-3xl mx-auto">
                 <div className="text-center">
                   <p className="text-foreground font-medium text-sm md:text-base mb-1">RING</p>
@@ -239,7 +239,27 @@ const EntourageSection = () => {
             {/* Flower Girl */}
             <div className="mt-8">
               <h4 className="text-base md:text-lg font-semibold text-foreground mb-4 text-center">To Shower our aisle with flowers</h4>
-              <p className="text-foreground/90 text-sm md:text-base text-center">Gabrielle R. Zamora</p>
+              <div className="space-y-1 text-center">
+                <p className="text-foreground/90 text-sm md:text-base">Gzyll Tahlia F. Grasparil</p>
+                <p className="text-foreground/90 text-sm md:text-base">Gabrielle R. Zamora</p>
+              </div>
+            </div>
+
+            {/* Mass Offerings */}
+            <div className="mt-8">
+              <p className="text-foreground/90 text-sm md:text-base text-center mb-4">The Offertory gifts will be lovingly presented by our sponsors,</p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-4 max-w-3xl mx-auto">
+                <div className="space-y-1 text-center">
+                  <p className="text-foreground/90 text-sm md:text-base">Mr. Mc Delian O. Saldajeno</p>
+                  <p className="text-foreground/90 text-sm md:text-base">Mr. Sirhan F T. Candaza</p>
+                  <p className="text-foreground/90 text-sm md:text-base">Mr. Mico Ramuel M. Jarabata</p>
+                </div>
+                <div className="space-y-1 text-center">
+                  <p className="text-foreground/90 text-sm md:text-base">Mrs. Mitchie R. Santos</p>
+                  <p className="text-foreground/90 text-sm md:text-base">Mrs. Eva S. Santos</p>
+                </div>
+              </div>
+              <p className="text-foreground/90 text-sm md:text-base text-center mt-4">as we celebrate the Holy Sacrament of Matrimony.</p>
             </div>
           </div>
         </motion.div>
