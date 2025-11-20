@@ -56,33 +56,30 @@ const SaveTheDateSection = () => {
         </div>
       </motion.section>
 
-      {/* Video Section */}
+      {/* Video Section - Full Width Cover */}
       <motion.section 
-        className="relative w-full overflow-hidden bg-gradient-to-b from-background to-muted/20"
+        className="relative w-full overflow-hidden"
         initial={animationsEnabled ? { opacity: 0 } : { opacity: 1 }}
         animate={{ opacity: 1 }}
         transition={animationsEnabled ? { duration: 0.8, ease: "easeOut", delay: 0.8 } : { duration: 0 }}
       >
-        <div className="relative w-full py-12 md:py-20">
-          <div className="max-w-5xl mx-auto px-4">
-            <motion.div
-              initial={animationsEnabled ? { scale: 0.95, opacity: 0 } : { scale: 1, opacity: 1 }}
-              animate={{ scale: 1, opacity: 1 }}
-              transition={animationsEnabled ? { duration: 0.6, delay: 1.0 } : { duration: 0 }}
-            >
-              <div className="relative w-full rounded-md overflow-hidden shadow-lg" style={{ paddingBottom: '56.25%' }}>
-                <iframe
-                  className="absolute top-0 left-0 w-full h-full"
-                  src="https://www.youtube.com/embed/raC6d_2BtBE"
-                  title="Save The Date Video"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
-                  data-testid="video-save-the-date"
-                ></iframe>
-              </div>
-            </motion.div>
+        <motion.div
+          className="relative w-full"
+          initial={animationsEnabled ? { scale: 0.98, opacity: 0 } : { scale: 1, opacity: 1 }}
+          animate={{ scale: 1, opacity: 1 }}
+          transition={animationsEnabled ? { duration: 0.6, delay: 1.0 } : { duration: 0 }}
+        >
+          <div className="relative w-full overflow-hidden" style={{ paddingBottom: '56.25%' }}>
+            <iframe
+              className="absolute top-0 left-0 w-full h-full"
+              src="https://www.youtube.com/embed/raC6d_2BtBE"
+              title="Save The Date Video"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              data-testid="video-save-the-date"
+            ></iframe>
           </div>
-        </div>
+        </motion.div>
       </motion.section>
 
       {/* Message Section with Background */}
